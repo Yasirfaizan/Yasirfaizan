@@ -65,9 +65,9 @@ Portfolio Websites • Landing Pages • Responsive Web Apps • Full-Stack Appl
 <sub>Pixel-perfect layouts</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100"><br>
-<strong>Modern UI/UX</strong><br>
-<sub>Beautiful interfaces</sub>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100"><br>
+<strong>React Development</strong><br>
+<sub>Component-based apps</sub>
 </td>
 <td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100"><br>
@@ -130,7 +130,7 @@ Portfolio Websites • Landing Pages • Responsive Web Apps • Full-Stack Appl
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=YasirFaizan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="Yasir's GitHub Stats"/>
-  <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=YasirFaizan&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="Yasir's Streak Stats"/>
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=YasirFaizan&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="Yasir's Streak Stats"/>
 </div>
 
 <div align="center">
