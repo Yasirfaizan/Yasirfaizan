@@ -2,9 +2,9 @@
 
 # 👋 Hey, I'm Yasir Faizan
 
-### Front-End Developer | UI Enthusiast | React Specialist
+### MERN Stack Developer | Full-Stack Enthusiast | UI/UX Focused
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Beautiful+Web+Experiences;Crafting+Responsive+%26+Modern+UIs;Always+Learning%2C+Always+Growing" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Modern+Web+Applications;MERN+Stack+Developer;Front-End+%2B+Back-End+Development;Creating+Beautiful+User+Experiences" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yasirfaizan680@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yasir-faizan-shalmani/)
@@ -20,25 +20,34 @@
 
 <div align="center">
 
-### 🎯 **Front-End Developer** from **Peshawar, Pakistan** 🇵🇰
+### 🎯 **MERN Stack Developer** from **Peshawar, Pakistan** 🇵🇰
 
-I specialize in crafting **pixel-perfect, responsive web applications** that combine stunning visuals with seamless functionality.
+</div>
 
-#### 💻 **My Code Languages**
-JavaScript • TypeScript • HTML • CSS
+Hi, I'm **Yasir**, a passionate **Web Developer** who loves building modern, fast, and responsive websites with clean UI and smooth user experience. I work with **HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap** to create professional front-end interfaces that look great on every device.
 
-#### ⚡ **Frontend Arsenal**
-**Frameworks:** React, Redux  
-**Styling:** Tailwind CSS, Bootstrap, CSS3  
-**Tools:** Vite, React Router, React Hook Form
+I'm also learning **Back-End Development** using **Node.js and Express.js**, and working with databases like **MongoDB using Mongoose**, so I can build complete **full-stack web applications** and powerful **REST APIs**.
 
-#### 🔧 **Backend & Databases**
-**Server:** Node.js, Express.js  
-**Databases:** MongoDB, Firebase
+I enjoy turning ideas into real websites, improving designs, and writing well-structured code. I'm always learning new technologies, improving my skills, and working on real-world projects to become a strong professional developer.
+
+<div align="center">
+
+#### 💼 **What I Build**
+Portfolio Websites • Landing Pages • Responsive Web Apps • Full-Stack Applications • REST APIs
+
+#### 🎯 **My Focus**
+✅ Well-structured, scalable code  
+✅ Fully responsive layouts for all devices  
+✅ Smooth and engaging user experiences  
+✅ Modern UI/UX design principles
+
+</div>
 
 ---
 
-> *"Clean code is not written by following a set of rules. You know you've written clean code when each routine you read turns out to be pretty much what you expected."*
+<div align="center">
+
+> *"Great web experiences are built with passion, one line of code at a time."*
 
 </div>
 
@@ -77,7 +86,7 @@ JavaScript • TypeScript • HTML • CSS
 
 ### 🔥 Core Technologies
 
-<img src="https://skillicons.dev/icons?i=vscode,react,nodejs,express,mongodb,tailwind,bootstrap,firebase&theme=dark" alt="Tech Stack Icons" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,tailwind,bootstrap,vscode,firebase,vite&theme=dark" alt="Tech Stack Icons" />
 
 </div>
 
@@ -104,10 +113,12 @@ JavaScript • TypeScript • HTML • CSS
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### Tools & Backend
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
@@ -150,11 +161,12 @@ JavaScript • TypeScript • HTML • CSS
 <div align="center">
 
 ```diff
-+ 🔭 Building modern web applications with React & TypeScript
-+ 🌱 Mastering advanced UI/UX patterns and animations
-+ 💡 Exploring Next.js and server-side rendering
-+ 🎨 Perfecting responsive design techniques
-+ 🚀 Contributing to open-source projects
++ 🔭 Building full-stack MERN applications
++ 🌱 Learning Back-End Development with Node.js & Express.js
++ 💡 Creating REST APIs and connecting with MongoDB
++ 🎨 Mastering responsive design and modern UI/UX patterns
++ 🚀 Exploring Vite and modern web development tools
++ 📚 Working on real-world projects to sharpen my skills
 ```
 
 </div>
@@ -172,7 +184,7 @@ JavaScript • TypeScript • HTML • CSS
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
-### ⚡ "Great web experiences are built one component at a time"
+### ⚡ "Building full-stack solutions, one component at a time"
 
 <img src="https://visitcount.itsvg.in/api?id=YasirFaizan&label=Profile%20Views&color=0&icon=5&pretty=true" alt="Profile Views"/>
 
