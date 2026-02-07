@@ -7,10 +7,10 @@
   <a href="mailto:yasirfaizan680@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/Yasir%20Faizan">
+  <a href="https://www.linkedin.com/in/yasir-faizan-shalmani/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://facebook.com/Yasir%20Faizan">
+  <a href="https://www.facebook.com/yasir.faizan.680078/">
     <img alt="Facebook" src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" />
   </a>
 </p>
