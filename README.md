@@ -127,23 +127,11 @@ Portfolio Websites • Landing Pages • Responsive Web Apps • Full-Stack Appl
 ---
 
 ## 📈 GitHub Analytics
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=YasirFaizan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="Yasir's GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=YasirFaizan&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="Yasir's Streak Stats"/>
 </div>
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YasirFaizan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Top Languages"/>
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=YasirFaizan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" alt="Contribution Graph"/>
-</div>
-
----
-
-## 🏆 Achievement Showcase
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YasirFaizan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies"/>
 </div>
 
 ---
