@@ -18,26 +18,29 @@
 
 ## 🚀 About Me
 
-```javascript
-const yasir = {
-    role: "Front-End Developer",
-    location: "Peshawar, Pakistan 🇵🇰",
-    code: ["JavaScript", "TypeScript", "HTML", "CSS"],
-    technologies: {
-        frontEnd: {
-            frameworks: ["React", "Redux"],
-            styling: ["Tailwind CSS", "Bootstrap", "CSS3"],
-            tools: ["Vite", "React Router", "React Hook Form"]
-        },
-        backEnd: ["Node.js", "Express.js"],
-        databases: ["MongoDB", "Firebase"],
-        currentFocus: "Building pixel-perfect, responsive web applications"
-    },
-    philosophy: "Clean code is not written by following a set of rules. " +
-                "You know you've written clean code when each routine " +
-                "you read turns out to be pretty much what you expected."
-};
-```
+<div align="center">
+
+### 🎯 **Front-End Developer** from **Peshawar, Pakistan** 🇵🇰
+
+I specialize in crafting **pixel-perfect, responsive web applications** that combine stunning visuals with seamless functionality.
+
+#### 💻 **My Code Languages**
+JavaScript • TypeScript • HTML • CSS
+
+#### ⚡ **Frontend Arsenal**
+**Frameworks:** React, Redux  
+**Styling:** Tailwind CSS, Bootstrap, CSS3  
+**Tools:** Vite, React Router, React Hook Form
+
+#### 🔧 **Backend & Databases**
+**Server:** Node.js, Express.js  
+**Databases:** MongoDB, Firebase
+
+---
+
+> *"Clean code is not written by following a set of rules. You know you've written clean code when each routine you read turns out to be pretty much what you expected."*
+
+</div>
 
 <div align="center">
 
@@ -47,23 +50,36 @@ const yasir = {
 
 <table align="center">
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><br>
 <strong>Responsive Design</strong><br>
-<sub>Pixel-perfect layouts that work everywhere</sub>
+<sub>Pixel-perfect layouts</sub>
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100"><br>
 <strong>Modern UI/UX</strong><br>
-<sub>Beautiful interfaces with smooth interactions</sub>
+<sub>Beautiful interfaces</sub>
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100"><br>
 <strong>Clean Code</strong><br>
-<sub>Scalable and maintainable solutions</sub>
+<sub>Scalable solutions</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="100"><br>
+<strong>Full Stack</strong><br>
+<sub>MERN development</sub>
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+### 🔥 Core Technologies
+
+<img src="https://skillicons.dev/icons?i=vscode,react,nodejs,express,mongodb,tailwind,bootstrap,firebase&theme=dark" alt="Tech Stack Icons" />
+
+</div>
 
 ---
 
