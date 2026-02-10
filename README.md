@@ -2,7 +2,7 @@
 
 # 👋 Hey, I'm Yasir Faizan
 
-### MERN Stack Developer | Full-Stack Enthusiast | UI/UX Focused
+### MERN Stack Developer | Full-Stack Enthusiast | Cloud Computing Enthusiast
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Modern+Web+Applications;MERN+Stack+Developer;Front-End+%2B+Back-End+Development;Creating+Beautiful+User+Experiences" alt="Typing SVG" />
 
