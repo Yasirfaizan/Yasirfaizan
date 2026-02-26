@@ -1,0 +1,185 @@
+.skills-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  overflow: hidden;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.marquee-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  /* Fade out edges for a smooth entrance/exit */
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-container {
+  display: flex;
+  width: max-content;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 3rem; /* Gave more breathing room for larger cards */
+  padding-right: 3rem; 
+  align-items: center; /* keep cards vertically centered */
+  height: 300px; /* Leave space for big hover scales / shadows */
+  animation: scrollTrack 30s linear infinite;
+  white-space: nowrap;
+}
+
+.marquee-track.reverse {
+  animation: scrollTrackReverse 30s linear infinite;
+}
+
+.marquee-wrapper:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes scrollTrack {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+
+@keyframes scrollTrackReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); } 
+  /* 50% shift because the array is duplicated exactly twice */
+}
+
+/* --- Ultimate Fashionable 3D Card Design --- */
+.ultimate-skill-card {
+  position: relative;
+  width: 200px; /* Squarish for better badge look */
+  height: 220px;
+  border-radius: 24px;
+  background: var(--glow-color);
+  padding: 2px; /* Super thin glowing border */
+  cursor: pointer;
+  z-index: 1;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: float 5s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) rotateX(5deg); }
+  100% { transform: translateY(-10px) rotateX(-5deg); }
+}
+
+/* Base Shadow/Glow (ambient) */
+.ultimate-skill-card::after {
+  content: '';
+  position: absolute;
+  top: 15px; left: 10px; right: 10px; bottom: 0;
+  border-radius: 24px;
+  background: var(--glow-color);
+  opacity: 0.15;
+  filter: blur(25px);
+  z-index: -1;
+  transition: opacity 0.4s ease;
+}
+
+/* The actual glass body of the card */
+.card-glass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 23px;
+  background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(15, 15, 15, 0.95));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s ease;
+  transform: translateZ(20px); /* Pops the content out inside the 3D space */
+}
+
+/* Diagonal shine across the glass */
+.card-glare {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 50%;
+  height: 300%;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0) 100%);
+  transform: rotate(45deg);
+  transition: all 0.6s ease;
+}
+
+/* Icon Holder */
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: inset 0 0 15px rgba(255,255,255,0.05);
+  color: var(--text-secondary);
+  transition: all 0.4s ease;
+  transform: translateZ(40px);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  transform: translateZ(30px);
+}
+
+/* ------ Ultimate Hover Effects ------ */
+.ultimate-skill-card:hover {
+  transform: translateY(-20px) scale(1.1) rotateX(10deg) rotateY(-10deg) !important;
+  animation-play-state: paused;
+}
+
+/* Intense neon drop shadow below the card */
+.ultimate-skill-card:hover::after {
+  opacity: 0.8;
+  filter: blur(30px);
+  top: 30px;
+}
+
+/* The card brightens internally */
+.ultimate-skill-card:hover .card-glass {
+  background: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(10, 10, 10, 1));
+  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Sweep the glare */
+.ultimate-skill-card:hover .card-glare {
+  left: 150%;
+  top: 150%;
+  transition: all 0.8s ease;
+}
+
+/* Icon gets massive glow and exact brand color */
+.ultimate-skill-card:hover .card-icon {
+  color: var(--glow-color);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 30px var(--glow-color), inset 0 0 20px rgba(255,255,255,0.1);
+  transform: translateZ(60px) scale(1.1); /* Pops completely off the card */
+}
+
+/* Title text glows */
+.ultimate-skill-card:hover .card-title {
+  color: var(--text-primary);
+  text-shadow: 0 0 15px var(--glow-color);
+  transform: translateZ(50px);
+}

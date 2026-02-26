@@ -1,0 +1,185 @@
+.footer-section {
+  background: linear-gradient(to top, rgba(10, 10, 10, 1), transparent);
+  padding: 4rem 2rem 0; /* Removed bottom padding for the huge text */
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: auto;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  z-index: 10; /* Keep above bg text */
+  position: relative;
+}
+
+/* --- Left: Email Text --- */
+.footer-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.attractive-email {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+  position: relative;
+  transition: all 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.attractive-email::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.attractive-email:hover {
+  text-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.attractive-email:hover::after {
+  width: 100%;
+}
+
+.footer-bottom-info {
+  text-align: center;
+  margin-top: 4rem;
+  z-index: 10;
+  position: relative;
+}
+
+.copyright {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* --- Right: Social Circles --- */
+.footer-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-links-circle {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Base hover properties */
+.social-icon-circle:hover {
+  color: white;
+  transform: translateY(-8px) scale(1.1);
+  border-color: rgba(255,255,255,0.4);
+}
+
+/* Specific Brand Hover Colors & Glows */
+.social-icon-circle:nth-child(1):hover { /* Github */
+  background: #333;
+  box-shadow: 0 10px 20px -5px rgba(51, 51, 51, 0.8);
+}
+
+.social-icon-circle:nth-child(2):hover { /* LinkedIn */
+  background: #0077B5;
+  box-shadow: 0 10px 20px -5px rgba(0, 119, 181, 0.8);
+}
+
+.social-icon-circle:nth-child(3):hover { /* Facebook */
+  background: #1877F2;
+  box-shadow: 0 10px 20px -5px rgba(24, 119, 242, 0.8);
+}
+
+.social-icon-circle.whatsapp:hover { /* WhatsApp */
+  background: #25D366;
+  box-shadow: 0 10px 20px -5px rgba(37, 211, 102, 0.8);
+}
+
+/* Responsive Stacking */
+@media (max-width: 850px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  
+  .footer-left, .footer-right {
+    flex: auto;
+    justify-content: center;
+  }
+  
+  .jumping-bg-name {
+    font-size: 15vw;
+  }
+}
+
+/* --- MASSIVE BACKGROUND JUMPING NAME --- */
+.footer-bg-name-container {
+  position: absolute;
+  bottom: -2vw;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  pointer-events: none; /* Let clicks pass through to background if necessary */
+}
+
+.jumping-bg-name {
+  font-size: 16vw; /* Massive scaling text */
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 0.8;
+  white-space: nowrap;
+  
+  /* Make it slightly transparent and blend with background */
+  color: rgba(255, 255, 255, 0.03);
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.08);
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.jumping-bg-name span {
+  display: inline-block;
+  animation: massive-jump 3s infinite cubic-bezier(0.28, 0.84, 0.42, 1);
+  transform-origin: bottom;
+}
+
+@keyframes massive-jump {
+  0%, 10%, 40%, 100% { transform: translateY(0) scaleY(1); }
+  20% { transform: translateY(-3vw) scaleY(1.1); color: rgba(255, 255, 255, 0.1); }
+  30% { transform: translateY(-1vw) scaleY(1.05); }
+}
