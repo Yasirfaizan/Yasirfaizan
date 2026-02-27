@@ -20,10 +20,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <a href="#home" onClick={(e) => { e.preventDefault(); scrollTo('home'); }} className="nav-brand">
-          <span className="brand-text">Portfolio.</span>
-        </a>
-        
         <ul className="nav-links">
           <li>
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollTo('home'); }} className="nav-link">

@@ -9,6 +9,11 @@
   --accent-gradient: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899);
   --glass-bg: rgba(20, 20, 20, 0.7);
   --glass-border: rgba(255, 255, 255, 0.1);
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 18px 45px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+  --focus-ring: 0 0 0 4px rgba(59, 130, 246, 0.22);
 }
 
 * {
@@ -24,12 +29,59 @@ html {
 body {
   font-family: 'Outfit', 'Inter', sans-serif;
   background-color: var(--bg-primary);
+  background-image:
+    radial-gradient(900px circle at 18% 12%, rgba(59, 130, 246, 0.12), transparent 45%),
+    radial-gradient(800px circle at 88% 60%, rgba(236, 72, 153, 0.10), transparent 48%),
+    radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to right, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+  background-size:
+    auto,
+    auto,
+    4px 4px,
+    64px 64px,
+    64px 64px;
+  background-position:
+    center,
+    center,
+    0 0,
+    0 0,
+    0 0;
+  background-attachment: fixed;
   color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   position: relative;
   cursor: none; /* Hide default cursor */
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.35);
+  color: var(--text-primary);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 10px;
+}
+
+/* Scrollbars (Chrome/Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  border: 2px solid rgba(10, 10, 10, 0.8);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.22);
 }
 
 /* --- Main content wrapping --- */
@@ -100,6 +152,35 @@ li {
 .main-content {
   flex: 1;
   padding-top: 80px; /* Account for navbar */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 0;
+  }
+
+  body {
+    cursor: auto;
+  }
+
+  .custom-cursor,
+  .custom-cursor-follower {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
 
 /* Animations */

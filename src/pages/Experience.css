@@ -70,6 +70,24 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+}
+
+.fashion-card::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.55), rgba(139, 92, 246, 0.22), rgba(236, 72, 153, 0.45));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 0;
 }
 
 /* Subtle glow effect on hover */
@@ -80,12 +98,17 @@
   background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.1), transparent 70%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  z-index: -1;
 }
 
 .timeline-item:hover .fashion-card {
   transform: translateY(-5px);
   border-color: rgba(59, 130, 246, 0.3);
   box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.6);
+}
+
+.timeline-item:hover .fashion-card::after {
+  opacity: 1;
 }
 
 .timeline-item:hover .fashion-card::before {
