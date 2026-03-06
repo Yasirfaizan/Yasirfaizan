@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, ArrowRight, Download } from 'lucide-react';
-import resumePdf from '../assets/Yasir Resume.pdf';
+// import resumePdf from '../assets/Yasir Resume.pdf';
 import profileImg from '../assets/1.jpg';
 import './Home.css';
 
@@ -20,6 +20,18 @@ const Home = () => {
     }
   };
 
+  // For Manual Resume Okay
+
+  //   const handleResumeDownload = (e) => {
+  //   e.preventDefault();
+  //   const link = document.createElement("a");
+  //   link.href = resumePdf;
+  //   link.download = "Yasir_Resume.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
+
   return (
     <section id="home" className="hero-section">
       <div className="hero-content animate-fade-in">
@@ -36,7 +48,11 @@ const Home = () => {
             <a href="#projects" onClick={scrollToProjects} className="btn btn-primary">
               View Work <ArrowRight size={18} />
             </a>
-            <a href={RESUME_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+            <a href={RESUME_LINK} target="_blank" 
+              {/* href="#resume" */}
+              {/* onClick={handleResumeDownload} */}
+              rel="noopener noreferrer" 
+              className="btn btn-secondary">
               <Download size={18} /> Resume
             </a>
           </div>
