@@ -27,7 +27,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/yasir.faizan.680078/" target="_blank" rel="noreferrer" className="social-icon-circle" aria-label="Facebook">
               <Facebook size={20} />
             </a>
-            <a href="https://wa.me/923341546579" target="_blank" rel="noreferrer" className="social-icon-circle whatsapp" aria-label="WhatsApp">
+            <a href="https://wa.me/923341536579" target="_blank" rel="noreferrer" className="social-icon-circle whatsapp" aria-label="WhatsApp">
               <MessageCircle size={20} />
             </a>
           </div>
