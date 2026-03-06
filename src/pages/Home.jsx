@@ -1,11 +1,12 @@
 import { Github, Linkedin, Mail, ArrowRight, Download } from 'lucide-react';
+import resumePdf from '../assets/Yasir Resume.pdf';
 import profileImg from '../assets/1.jpg';
 import './Home.css';
 
 // -------------------------------------------------------------
 // PASTE YOUR RESUME PDF LINK HERE (Google Drive, Dropbox, etc.)
 // -------------------------------------------------------------
-const RESUME_LINK = "https://example.com/your-resume.pdf";
+const RESUME_LINK = "https://drive.google.com/file/d/1AE10WIJZRGzBG8b3N0n1ZJLoKYP40u6Q/view?usp=sharing";
 
 const Home = () => {
   const scrollToProjects = (e) => {
