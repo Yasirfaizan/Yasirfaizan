@@ -48,14 +48,12 @@ const Home = () => {
             <a href="#projects" onClick={scrollToProjects} className="btn btn-primary">
               View Work <ArrowRight size={18} />
             </a>
-            <a href={RESUME_LINK} target="_blank" 
-              {/* href="#resume" */}
-              {/* onClick={handleResumeDownload} */}
-              rel="noopener noreferrer" 
-              className="btn btn-secondary">
+            <a href={RESUME_LINK} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               <Download size={18} /> Resume
             </a>
           </div>
+              //{/* href="#resume" */}
+            // {/* onClick={handleResumeDownload} */}
           <div className="social-links">
             <a href="https://github.com/Yasirfaizan" target="_blank" rel="noreferrer" className="social-icon"><Github /></a>
             <a href="https://www.linkedin.com/in/yasir-faizan-shalmani/" target="_blank" rel="noreferrer" className="social-icon"><Linkedin /></a>
