@@ -74,6 +74,14 @@ export const projects = [
 },
 {
   id: 10,
+  title: "Tent and Catering Services",
+  description: "A Tent and Catering Website For Online Services via Whatsapp,Focus on client Demand and His Details.",
+  tags: ["React","CSS","Tailwind CSS","Smooth Animations"],
+  liveUrl: "https://shahab-tent-and-catering.vercel.app/",
+  githubUrl: "https://github.com/Yasirfaizan/Tent-Services"
+},
+{
+  id: 11,
   title: "Ad Gate PHP",
   description: "A mock form login signup application featuring a clean and modern design, with a focus on user experience.",
   tags: ["PHP", "HTML", "CSS", "JavaScript","SQL"],
