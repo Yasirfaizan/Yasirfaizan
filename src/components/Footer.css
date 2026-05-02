@@ -1,6 +1,6 @@
 .footer-section {
   background: linear-gradient(to top, rgba(10, 10, 10, 1), transparent);
-  padding: 4rem 2rem 0; /* Removed bottom padding for the huge text */
+  padding: 4rem 2rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   margin-top: auto;
   position: relative;
@@ -19,11 +19,10 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  z-index: 10; /* Keep above bg text */
+  z-index: 10;
   position: relative;
 }
 
-/* --- Left: Email Text --- */
 .footer-left {
   flex: 1;
   display: flex;
@@ -59,19 +58,6 @@
   width: 100%;
 }
 
-.footer-bottom-info {
-  text-align: center;
-  margin-top: 4rem;
-  z-index: 10;
-  position: relative;
-}
-
-.copyright {
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-}
-
-/* --- Right: Social Circles --- */
 .footer-right {
   flex: 1;
   display: flex;
@@ -98,53 +84,103 @@
   overflow: hidden;
 }
 
-/* Base hover properties */
 .social-icon-circle:hover {
   color: white;
   transform: translateY(-8px) scale(1.1);
   border-color: rgba(255,255,255,0.4);
 }
 
-/* Specific Brand Hover Colors & Glows */
-.social-icon-circle:nth-child(1):hover { /* Github */
-  background: #333;
-  box-shadow: 0 10px 20px -5px rgba(51, 51, 51, 0.8);
+.social-icon-circle:nth-child(1):hover { background: #333; box-shadow: 0 10px 20px -5px rgba(51, 51, 51, 0.8); }
+.social-icon-circle:nth-child(2):hover { background: #0077B5; box-shadow: 0 10px 20px -5px rgba(0, 119, 181, 0.8); }
+.social-icon-circle:nth-child(3):hover { background: #1877F2; box-shadow: 0 10px 20px -5px rgba(24, 119, 242, 0.8); }
+.social-icon-circle.whatsapp:hover { background: #25D366; box-shadow: 0 10px 20px -5px rgba(37, 211, 102, 0.8); }
+
+.contact-form-wrapper {
+  max-width: 760px;
+  width: 100%;
+  margin: 2rem auto 0;
+  z-index: 10;
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  backdrop-filter: blur(10px);
 }
 
-.social-icon-circle:nth-child(2):hover { /* LinkedIn */
-  background: #0077B5;
-  box-shadow: 0 10px 20px -5px rgba(0, 119, 181, 0.8);
+.contact-kicker {
+  color: var(--accent-color);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
-.social-icon-circle:nth-child(3):hover { /* Facebook */
-  background: #1877F2;
-  box-shadow: 0 10px 20px -5px rgba(24, 119, 242, 0.8);
+.contact-form-wrapper h3 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
 }
 
-.social-icon-circle.whatsapp:hover { /* WhatsApp */
-  background: #25D366;
-  box-shadow: 0 10px 20px -5px rgba(37, 211, 102, 0.8);
+.contact-form {
+  display: grid;
+  gap: 0.8rem;
 }
 
-/* Responsive Stacking */
+.contact-form input,
+.contact-form textarea {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-primary);
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.contact-submit {
+  width: fit-content;
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background: var(--accent-color);
+  color: white;
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.form-status { margin-top: 0.8rem; font-size: 0.9rem; }
+.form-status.success { color: #22c55e; }
+.form-status.error { color: #f87171; }
+
+.footer-bottom-info {
+  text-align: center;
+  margin-top: 2rem;
+  z-index: 10;
+  position: relative;
+}
+
+.copyright { color: var(--text-secondary); font-size: 0.9rem; }
+
 @media (max-width: 850px) {
-  .footer-content {
-    flex-direction: column;
-    justify-content: center;
-    gap: 2.5rem;
-  }
-  
-  .footer-left, .footer-right {
-    flex: auto;
-    justify-content: center;
-  }
-  
-  .jumping-bg-name {
-    font-size: 15vw;
-  }
+  .footer-content { flex-direction: column; justify-content: center; gap: 2.5rem; }
+  .footer-left, .footer-right { flex: auto; justify-content: center; }
+  .jumping-bg-name { font-size: 15vw; }
 }
 
-/* --- MASSIVE BACKGROUND JUMPING NAME --- */
 .footer-bg-name-container {
   position: absolute;
   bottom: -2vw;
@@ -152,21 +188,18 @@
   width: 100%;
   text-align: center;
   z-index: 1;
-  pointer-events: none; /* Let clicks pass through to background if necessary */
+  pointer-events: none;
 }
 
 .jumping-bg-name {
-  font-size: 16vw; /* Massive scaling text */
+  font-size: 16vw;
   font-weight: 900;
   text-transform: uppercase;
   margin: 0;
   line-height: 0.8;
   white-space: nowrap;
-  
-  /* Make it slightly transparent and blend with background */
   color: rgba(255, 255, 255, 0.03);
   -webkit-text-stroke: 2px rgba(255, 255, 255, 0.08);
-  
   display: flex;
   justify-content: center;
   align-items: flex-end;
