@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Github, Linkedin, Facebook, MessageCircle, Send } from 'lucide-react';
 import './Footer.css';
 
-const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_g283rz7';
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_y04z4y6';
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'X2dqKDDVEnIBvJfMS';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,6 +23,7 @@ const Footer = () => {
     e.preventDefault();
 
     if (!isEmailJsConfigured) {
+      setStatus({ type: 'error', text: 'Email service is temporarily unavailable. Please try again in a moment.' });
       setStatus({ type: 'error', text: 'Contact form is not configured yet. Add VITE_EMAILJS_* values in .env.local.' });
       return;
     }
