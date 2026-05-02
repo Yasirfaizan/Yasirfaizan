@@ -24,6 +24,7 @@ const Footer = () => {
 
     if (!isEmailJsConfigured) {
       setStatus({ type: 'error', text: 'Email service is temporarily unavailable. Please try again in a moment.' });
+      setStatus({ type: 'error', text: 'Contact form is not configured yet. Add VITE_EMAILJS_* values in .env.local.' });
       return;
     }
 
@@ -40,20 +41,11 @@ const Footer = () => {
           user_id: EMAILJS_PUBLIC_KEY,
           template_params: {
             from_name: formData.name,
-            name: formData.name,
-            user_name: formData.name,
-            client_name: formData.name,
-            sender_name: formData.name,
             from_email: formData.email,
+            name: formData.name,
             email: formData.email,
-            user_email: formData.email,
-            client_email: formData.email,
-            sender_email: formData.email,
             reply_to: formData.email,
             message: formData.message,
-            user_message: formData.message,
-            client_message: formData.message,
-            msg: formData.message,
           },
         }),
       });
