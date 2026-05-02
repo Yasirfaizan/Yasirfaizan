@@ -42,6 +42,9 @@ const Footer = () => {
           template_params: {
             from_name: formData.name,
             from_email: formData.email,
+            name: formData.name,
+            email: formData.email,
+            reply_to: formData.email,
             message: formData.message,
           },
         }),
