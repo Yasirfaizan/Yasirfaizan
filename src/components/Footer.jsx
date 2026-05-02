@@ -24,6 +24,7 @@ const Footer = () => {
 
     if (!isEmailJsConfigured) {
       setStatus({ type: 'error', text: 'Email service is temporarily unavailable. Please try again in a moment.' });
+      setStatus({ type: 'error', text: 'Contact form is not configured yet. Add VITE_EMAILJS_* values in .env.local.' });
       return;
     }
 
