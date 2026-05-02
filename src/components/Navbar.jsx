@@ -1,4 +1,4 @@
-import { Home as HomeIcon, FolderGit2, Code2, Briefcase, Compass } from 'lucide-react';
+import { Home as HomeIcon, FolderGit2, Code2, Briefcase, Compass, Mail } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -49,6 +49,12 @@ const Navbar = () => {
             <a href="#experience" onClick={(e) => { e.preventDefault(); scrollTo('experience'); }} className="nav-link">
               <Briefcase size={18} />
               <span>Experience</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={(e) => { e.preventDefault(); scrollTo('contact'); }} className="nav-link">
+              <Mail size={18} />
+              <span>Contact</span>
             </a>
           </li>
         </ul>
