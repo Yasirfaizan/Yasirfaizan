@@ -6,7 +6,7 @@ import './Home.css';
 // -------------------------------------------------------------
 // PASTE YOUR RESUME PDF LINK HERE (Google Drive, Dropbox, etc.)
 // -------------------------------------------------------------
-const RESUME_LINK = "https://drive.google.com/file/d/1AE10WIJZRGzBG8b3N0n1ZJLoKYP40u6Q/view?usp=sharing";
+const RESUME_LINK = "https://drive.google.com/file/d/1-a3jx3SsfX-r5c_rFrwyWSU7hGiUd0hE/view?usp=sharing";
 
 const Home = () => {
   const scrollToProjects = (e) => {
