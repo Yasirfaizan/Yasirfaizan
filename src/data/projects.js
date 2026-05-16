@@ -82,11 +82,27 @@ export const projects = [
 },
 {
   id: 11,
+  title: "Chain Forge",
+  description: "The Firebase for Web3 app help to connect wallets and features wallets transactions and generate API keys.",
+  tags: ["React", "Express", "MONGODB", "Railway"],
+  liveUrl: "https://chainforge-henna.vercel.app/",
+  githubUrl: "https://github.com/Yasirfaizan/chainforge"
+},
+{
+  id: 12,
+  title: "Aziz Jan Trust",
+  description: "The Real Website for the Famous Institute of KPK, which helps people and provides free Education.",
+  tags: ["React", "Tailwinds", "Vite", "Vercel"],
+  liveUrl: "https://aziz-jan-trust.vercel.app/",
+  githubUrl: "https://github.com/Yasirfaizan/Aziz-Jan-Trust",
+},
+{
+  id: 13,
   title: "Ad Gate PHP",
   description: "A mock form login signup application featuring a clean and modern design, with a focus on user experience.",
   tags: ["PHP", "HTML", "CSS", "JavaScript","SQL"],
   liveUrl: "http://ad-gate.infinityfree.me/index.php",
   githubUrl: "https://github.com/Yasirfaizan/AD-Gate-PHP"
-}
+},
 ];
 
