@@ -31,8 +31,16 @@ export const projects = [
   liveUrl: "https://shahab-tent-and-catering.vercel.app/",
   githubUrl: "https://github.com/Yasirfaizan/Tent-Services"
 },
+ {
+  id:5,
+  title: "Clinic Management System",
+  description: "A Clinic Management System Design to handle patients' appointments and their prescriptions.",
+  tags: ["React", "Express", "MONGODB", "Tailwind CSS"],
+  liveUrl: "https://med-flow-two-livid.vercel.app/",
+  githubUrl: "https://github.com/Yasirfaizan/MedFlow"
+ },
   {
-    id: 5,
+    id: 6,
     title: "Portfolio Design One",
     description: "A mock portfolio website featuring a clean and modern design, with a focus on user experience.",
     tags: ["React", "Lucide", "Vite","Tailwind CSS"],
@@ -40,7 +48,7 @@ export const projects = [
     githubUrl: "https://github.com/Yasirfaizan/Portfolio-Design-1-React"
 },
 {
-  id: 6,
+  id: 7,
   title: "Portfolio Design Two",
   description: "A mock portfolio website featuring a clean and modern design, with a focus on user experience.",
   tags: ["React", "Vite", "Tailwind CSS"],
@@ -48,7 +56,7 @@ export const projects = [
   githubUrl: "https://github.com/Yasirfaizan/Portfolio-Design-2-React"
 },
   {
-    id: 7,
+    id: 8,
     title: "School Project One",
     description: "A brief description of this amazing project and the technologies used to build it.",
     tags: ["React", "Lucide", "Vite"],
@@ -58,7 +66,7 @@ export const projects = [
   },
   {
   
-  id:8,
+  id: 9,
   title: "Marketing Agency One",
   description: "A mock marketing agency website featuring a clean and modern design, with a focus on user experience.",
   tags: ["React", "Vite", "Tailwind CSS"],
@@ -66,7 +74,7 @@ export const projects = [
   githubUrl: "https://github.com/Yasirfaizan/Marketing-Agency-1-React"
 },
 {
-  id: 9,
+  id: 10,
   title: "E-Commerce Store",
   description: "A mock e-commerce platform featuring product listings, cart functionality, and checkout.",
   tags: ["React", "Vite", "Tailwind CSS"],
@@ -74,7 +82,7 @@ export const projects = [
   githubUrl: "https://github.com/Yasirfaizan/E-Commerce-Store-React"
 },
 {
-  id: 10,
+  id: 11,
   title: "Ad Gate PHP",
   description: "A mock form login signup application featuring a clean and modern design, with a focus on user experience.",
   tags: ["PHP", "HTML", "CSS", "JavaScript","SQL"],
@@ -82,7 +90,7 @@ export const projects = [
   githubUrl: "https://github.com/Yasirfaizan/AD-Gate-PHP"
 },
 {
-  id:11,
+  id:12,
   title: "Weather App",
   description: "A weather application that displays the current weather conditions for a given location.",
   tags: ["React", "Vite", "Tailwind CSS"],
@@ -90,7 +98,7 @@ export const projects = [
   githubUrl: "https://github.com/Yasirfaizan/Weather-App"
 },
 {
-  id:12,
+  id:13,
   title: "Marketing Agency Two",
   description: "A mock marketing agency website featuring a clean and modern design, with a focus on user experience.",
   tags: ["React", "Vite", "Tailwind CSS"],
@@ -98,7 +106,7 @@ export const projects = [
   githubUrl: "https://github.com/Yasirfaizan/Marketing-Agency-2-React"
 },
 {
-    id: 13,
+    id: 14,
     title: "Task Management Tool",
     description: "A collaborative task management application for organizing your daily workflow.",
     tags: ["React", "Vite", "Tailwind CSS"],
