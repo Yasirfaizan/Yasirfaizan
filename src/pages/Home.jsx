@@ -37,10 +37,10 @@ const Home = () => {
       <div className="hero-content animate-fade-in">
         <p className="hero-greeting">Hi, my name is</p>
         <h1 className="hero-name">Yasir Faizan.</h1>
-        <h2 className="hero-role">I build things for the web.</h2>
+        <h2 className="hero-role">Web &amp; App Developer.</h2>
         
         <p className="hero-bio delay-100">
-          I'm a passionate web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.
+          I'm currently working at <b>SQODEX Technologies</b> and training at <b>SMIT</b>. I specialize in building responsive, user-friendly designs and crafting modern, interactive web applications with clean and efficient code.
         </p>
 
         <div className="hero-actions delay-200">

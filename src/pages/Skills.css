@@ -1,185 +1,209 @@
 .skills-section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 2rem;
-  overflow: hidden;
-  min-height: 60vh;
+  padding: 5rem 2rem;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-}
-
-.marquee-wrapper {
   position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding: 2rem 0;
-  margin-top: 2rem;
-  /* Fade out edges for a smooth entrance/exit */
-  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
-.marquee-container {
+.skills-desc {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+}
+
+/* Tabs Navigation Controller */
+.skills-tabs {
   display: flex;
-  width: max-content;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto 3rem;
+  background: var(--inner-bg);
+  padding: 0.5rem;
+  border-radius: 99px;
+  border: 1px solid var(--card-border);
+  width: fit-content;
+  flex-wrap: wrap;
 }
 
-.marquee-track {
+.skills-tab-btn {
   display: flex;
-  gap: 3rem; /* Gave more breathing room for larger cards */
-  padding-right: 3rem; 
-  align-items: center; /* keep cards vertically centered */
-  height: 300px; /* Leave space for big hover scales / shadows */
-  animation: scrollTrack 30s linear infinite;
-  white-space: nowrap;
-}
-
-.marquee-track.reverse {
-  animation: scrollTrackReverse 30s linear infinite;
-}
-
-.marquee-wrapper:hover .marquee-track {
-  animation-play-state: paused;
-}
-
-@keyframes scrollTrack {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } 
-}
-
-@keyframes scrollTrackReverse {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(0); } 
-  /* 50% shift because the array is duplicated exactly twice */
-}
-
-/* --- Ultimate Fashionable 3D Card Design --- */
-.ultimate-skill-card {
-  position: relative;
-  width: 200px; /* Squarish for better badge look */
-  height: 220px;
-  border-radius: 24px;
-  background: var(--glow-color);
-  padding: 2px; /* Super thin glowing border */
+  align-items: center;
+  gap: 0.6rem;
+  background: transparent;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 99px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.95rem;
   cursor: pointer;
-  z-index: 1;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation: float 5s ease-in-out infinite alternate;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@keyframes float {
-  0% { transform: translateY(0px) rotateX(5deg); }
-  100% { transform: translateY(-10px) rotateX(-5deg); }
+.skills-tab-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
 }
 
-/* Base Shadow/Glow (ambient) */
-.ultimate-skill-card::after {
+.skills-tab-btn.active {
+  color: #ffffff;
+  background: var(--accent-gradient);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.35);
+}
+
+[data-theme="light"] .skills-tab-btn.active {
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);
+}
+
+/* Active Category Introduction */
+.category-intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.category-intro h3 {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.category-intro p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Skills Gallery Responsive Grid */
+.skills-grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Interactive Card Styling */
+.skill-gallery-card {
+  position: relative;
+  border-radius: 20px;
+  background: var(--card-bg-gradient);
+  border: 1px solid var(--card-border);
+  padding: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.skill-card-inner {
+  padding: 2rem 1.5rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  border-radius: 18px;
+  z-index: 2;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.skill-icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background: var(--inner-bg);
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s ease;
+  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.02);
+}
+
+.skill-card-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+  transition: color 0.3s ease;
+}
+
+.skill-card-desc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Ambient shadow drop behind card */
+.skill-gallery-card::after {
   content: '';
   position: absolute;
   top: 15px; left: 10px; right: 10px; bottom: 0;
-  border-radius: 24px;
-  background: var(--glow-color);
-  opacity: 0.15;
+  border-radius: 20px;
+  background: var(--skill-glow);
+  opacity: 0;
   filter: blur(25px);
   z-index: -1;
   transition: opacity 0.4s ease;
 }
 
-/* The actual glass body of the card */
-.card-glass {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-  width: 100%;
-  height: 100%;
-  border-radius: 23px;
-  background: var(--card-bg-gradient);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  overflow: hidden;
-  position: relative;
-  transition: all 0.4s ease;
-  transform: translateZ(20px); /* Pops the content out inside the 3D space */
-}
-
-/* Diagonal shine across the glass */
+/* Diagonal Shine Overlay */
 .card-glare {
   position: absolute;
   top: -100%;
   left: -100%;
   width: 50%;
   height: 300%;
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0) 100%);
   transform: rotate(45deg);
   transition: all 0.6s ease;
+  pointer-events: none;
 }
 
-/* Icon Holder */
-.card-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  background: var(--inner-bg);
-  border-radius: 20px;
-  box-shadow: inset 0 0 15px rgba(255,255,255,0.05);
-  color: var(--text-secondary);
-  transition: all 0.4s ease;
-  transform: translateZ(40px);
+/* Hover States */
+.skill-gallery-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: var(--skill-glow);
 }
 
-.card-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--text-secondary);
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  transition: all 0.4s ease;
-  transform: translateZ(30px);
+.skill-gallery-card:hover::after {
+  opacity: 0.25;
 }
 
-/* ------ Ultimate Hover Effects ------ */
-.ultimate-skill-card:hover {
-  transform: translateY(-20px) scale(1.1) rotateX(10deg) rotateY(-10deg) !important;
-  animation-play-state: paused;
-}
-
-/* Intense neon drop shadow below the card */
-.ultimate-skill-card:hover::after {
-  opacity: 0.8;
-  filter: blur(30px);
-  top: 30px;
-}
-
-/* The card brightens internally */
-.ultimate-skill-card:hover .card-glass {
+.skill-gallery-card:hover .skill-card-inner {
   background: var(--card-bg-hover);
-  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.1);
 }
 
-/* Sweep the glare */
-.ultimate-skill-card:hover .card-glare {
+.skill-gallery-card:hover .skill-icon-wrap {
+  transform: scale(1.1) rotate(5deg);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px var(--skill-glow), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #ffffff !important;
+}
+
+/* Sweep glare */
+.skill-gallery-card:hover .card-glare {
   left: 150%;
   top: 150%;
   transition: all 0.8s ease;
 }
 
-/* Icon gets massive glow and exact brand color */
-.ultimate-skill-card:hover .card-icon {
-  color: var(--glow-color);
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0 30px var(--glow-color), inset 0 0 20px rgba(255,255,255,0.1);
-  transform: translateZ(60px) scale(1.1); /* Pops completely off the card */
-}
-
-/* Title text glows */
-.ultimate-skill-card:hover .card-title {
-  color: var(--text-primary);
-  text-shadow: 0 0 15px var(--glow-color);
-  transform: translateZ(50px);
+@media (max-width: 768px) {
+  .skills-tabs {
+    border-radius: 16px;
+    width: 100%;
+  }
+  
+  .skills-tab-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
