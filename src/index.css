@@ -14,6 +14,45 @@
   --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.45);
   --shadow-glow: 0 18px 45px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
   --focus-ring: 0 0 0 4px rgba(59, 130, 246, 0.22);
+  
+  /* Additional dynamic variables for clean themes */
+  --backdrop-filter: blur(12px);
+  --card-bg-gradient: linear-gradient(135deg, rgba(20, 20, 20, 0.7), rgba(10, 10, 10, 0.85));
+  --card-bg-hover: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(10, 10, 10, 1));
+  --card-border: rgba(255, 255, 255, 0.08);
+  --inner-bg: rgba(255, 255, 255, 0.05);
+  --footer-bg: linear-gradient(to top, rgba(10, 10, 10, 1), transparent);
+  --jumping-text-color: rgba(255, 255, 255, 0.03);
+  --jumping-text-stroke: 2px rgba(255, 255, 255, 0.08);
+  --jumping-text-hover: rgba(255, 255, 255, 0.12);
+  --overlay-bg: rgba(10, 10, 10, 0.85);
+  --image-overlay: linear-gradient(to bottom right, rgba(10, 10, 10, 0.2), rgba(59, 130, 246, 0.2));
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --accent-color: #2563eb;
+  --accent-gradient: linear-gradient(135deg, #2563eb, #6d28d9, #db2777);
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(15, 23, 42, 0.08);
+  --shadow-soft: 0 16px 40px rgba(15, 23, 42, 0.06);
+  --shadow-glow: 0 16px 40px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.03) inset;
+  --focus-ring: 0 0 0 4px rgba(37, 99, 235, 0.15);
+  
+  --backdrop-filter: none;
+  --card-bg-gradient: linear-gradient(135deg, #ffffff, #f8fafc);
+  --card-bg-hover: linear-gradient(135deg, #ffffff, #f1f5f9);
+  --card-border: rgba(15, 23, 42, 0.08);
+  --inner-bg: rgba(15, 23, 42, 0.04);
+  --footer-bg: linear-gradient(to top, rgba(248, 250, 252, 1), transparent);
+  --jumping-text-color: rgba(37, 99, 235, 0.03);
+  --jumping-text-stroke: 2px rgba(37, 99, 235, 0.12);
+  --jumping-text-hover: rgba(37, 99, 235, 0.18);
+  --overlay-bg: rgba(255, 255, 255, 0.95);
+  --image-overlay: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(37, 99, 235, 0.15));
 }
 
 * {
@@ -31,7 +70,7 @@ body {
   background-color: var(--bg-primary);
   background-image:
     radial-gradient(900px circle at 18% 12%, rgba(59, 130, 246, 0.12), transparent 45%),
-    radial-gradient(800px circle at 88% 60%, rgba(236, 72, 153, 0.10), transparent 48%),
+    radial-gradient(800px circle at 88% 60%, rgba(236, 72, 153, 0.1), transparent 48%),
     radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(to right, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
@@ -54,6 +93,16 @@ body {
   overflow-x: hidden;
   position: relative;
   cursor: none; /* Hide default cursor */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="light"] body {
+  background-image:
+    radial-gradient(900px circle at 18% 12%, rgba(37, 99, 235, 0.06), transparent 45%),
+    radial-gradient(800px circle at 88% 60%, rgba(219, 39, 119, 0.04), transparent 48%),
+    radial-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+    linear-gradient(to right, rgba(15, 23, 42, 0.012) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.012) 1px, transparent 1px);
 }
 
 ::selection {
@@ -73,15 +122,15 @@ button:focus-visible {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.14);
+  background: var(--glass-border);
   border-radius: 999px;
-  border: 2px solid rgba(10, 10, 10, 0.8);
+  border: 2px solid var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: var(--text-secondary);
 }
 
 /* --- Main content wrapping --- */
@@ -100,6 +149,12 @@ body::before, body::after {
   z-index: -1;
   opacity: 0.15;
   pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+[data-theme="light"] body::before,
+[data-theme="light"] body::after {
+  opacity: 0.07;
 }
 
 body::before {

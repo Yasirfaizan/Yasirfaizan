@@ -20,8 +20,8 @@
 }
 
 .explore-card {
-  background: linear-gradient(135deg, rgba(30, 30, 30, 0.6), rgba(15, 15, 15, 0.8));
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--card-bg-gradient);
+  border: 1px solid var(--card-border);
   border-radius: 20px;
   overflow: hidden;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -51,7 +51,7 @@
 .explore-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.5);
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: var(--accent-color);
 }
 
 .explore-card:hover::after {
@@ -60,7 +60,7 @@
 
 .explore-display {
   height: 250px;
-  background: rgba(10, 10, 10, 0.5);
+  background: var(--inner-bg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,8 +71,8 @@
 
 .explore-info {
   padding: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  background: rgba(20, 20, 20, 0.8);
+  border-top: 1px solid var(--card-border);
+  background: var(--card-bg-hover);
   z-index: 1;
 }
 

@@ -97,7 +97,7 @@
   width: 100%;
   height: 100%;
   border-radius: 23px;
-  background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(15, 15, 15, 0.95));
+  background: var(--card-bg-gradient);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   overflow: hidden;
@@ -125,7 +125,7 @@
   align-items: center;
   width: 80px;
   height: 80px;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--inner-bg);
   border-radius: 20px;
   box-shadow: inset 0 0 15px rgba(255,255,255,0.05);
   color: var(--text-secondary);
@@ -158,7 +158,7 @@
 
 /* The card brightens internally */
 .ultimate-skill-card:hover .card-glass {
-  background: linear-gradient(135deg, rgba(40, 40, 40, 0.95), rgba(10, 10, 10, 1));
+  background: var(--card-bg-hover);
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.1);
 }
 

@@ -1,7 +1,7 @@
-import { Home as HomeIcon, FolderGit2, Code2, Briefcase, Compass, Mail } from 'lucide-react';
+import { Home as HomeIcon, FolderGit2, Code2, Briefcase, Compass, Mail, Sun, Moon } from 'lucide-react';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ theme, toggleTheme }) => {
   const scrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -56,6 +56,15 @@ const Navbar = () => {
               <Mail size={18} />
               <span>Contact</span>
             </a>
+          </li>
+          <li>
+            <button 
+              onClick={toggleTheme} 
+              className="theme-toggle-btn" 
+              aria-label="Toggle Theme"
+            >
+              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
           </li>
         </ul>
       </div>

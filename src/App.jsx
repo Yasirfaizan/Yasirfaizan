@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
@@ -10,6 +10,19 @@ import Experience from './pages/Experience';
 import './App.css';
 
 function App() {
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'light';
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
+  };
+
   useEffect(() => {
     const observerCallback = (entries) => {
       entries.forEach(entry => {
@@ -38,7 +51,7 @@ function App() {
   return (
     <div className="app-container">
       <CustomCursor />
-      <Navbar />
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <main className="main-content">
         <Home />
         <Skills />

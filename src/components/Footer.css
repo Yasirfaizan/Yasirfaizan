@@ -1,7 +1,7 @@
 .footer-section {
-  background: linear-gradient(to top, rgba(10, 10, 10, 1), transparent);
+  background: var(--footer-bg);
   padding: 4rem 2rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid var(--card-border);
   margin-top: auto;
   position: relative;
   overflow: hidden;
@@ -76,8 +76,8 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--inner-bg);
+  border: 1px solid var(--card-border);
   color: var(--text-secondary);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
@@ -87,7 +87,7 @@
 .social-icon-circle:hover {
   color: white;
   transform: translateY(-8px) scale(1.1);
-  border-color: rgba(255,255,255,0.4);
+  border-color: var(--accent-color);
 }
 
 .social-icon-circle:nth-child(1):hover { background: #333; box-shadow: 0 10px 20px -5px rgba(51, 51, 51, 0.8); }
@@ -103,9 +103,9 @@
   position: relative;
   padding: 1.5rem;
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
-  backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  background: var(--card-bg-gradient);
+  backdrop-filter: var(--backdrop-filter);
 }
 
 .contact-kicker {
@@ -129,8 +129,8 @@
 
 .contact-form input,
 .contact-form textarea {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: var(--inner-bg);
+  border: 1px solid var(--card-border);
   color: var(--text-primary);
   padding: 0.9rem 1rem;
   border-radius: 10px;
@@ -198,8 +198,8 @@
   margin: 0;
   line-height: 0.8;
   white-space: nowrap;
-  color: rgba(255, 255, 255, 0.03);
-  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.08);
+  color: var(--jumping-text-color);
+  -webkit-text-stroke: 2px var(--jumping-text-stroke);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -213,6 +213,6 @@
 
 @keyframes massive-jump {
   0%, 10%, 40%, 100% { transform: translateY(0) scaleY(1); }
-  20% { transform: translateY(-3vw) scaleY(1.1); color: rgba(255, 255, 255, 0.1); }
+  20% { transform: translateY(-3vw) scaleY(1.1); color: var(--jumping-text-hover); }
   30% { transform: translateY(-1vw) scaleY(1.05); }
 }
