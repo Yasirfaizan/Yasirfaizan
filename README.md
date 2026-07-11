@@ -1,12 +1,20 @@
 <div align="center">
+  <!-- Custom Neon Theme Banner -->
   <img src="banner.svg" width="100%" alt="Yasir Faizan Banner" style="border-radius: 16px;" />
   
   <br/><br/>
   
+  <!-- Dynamic Typing Subtitle -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=600&size=24&duration=4000&pause=1000&color=3b82f6&center=true&vCenter=true&width=600&lines=Building+Modern+Web+Experiences;MERN+Stack+Developer;Front-End+%2B+Back-End+Architecture;Creating+Seamless+User+Interfaces" alt="Typing SVG" />
   
   <br/>
-  
+
+  <!-- Profile Views Counter Badge -->
+  <img src="https://komarev.com/ghpvc/?username=Yasirfaizan&color=3b82f6&style=flat-square&label=Profile+Views" alt="Profile Views" />
+
+  <br/><br/>
+
+  <!-- Social Badges Grid -->
   <a href="mailto:yasirfaizan680@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=0f0f11" />
   </a>
@@ -27,14 +35,14 @@
   <tr>
     <td valign="top" width="55%">
       <h3>🌟 About Me</h3>
-      <p>I am a detail-oriented <b>Full-Stack &amp; MERN Developer</b> with a passion for designing scalable, interactive, and highly responsive web applications. I love bridging the gap between user-centric design and powerful back-end architecture. I work extensively with <b>React, Node.js, Express, and MongoDB</b>, transforming abstract concepts into pixel-perfect, structured realities.</p>
+      <p>I am a detail-oriented <b>Full-Stack &amp; MERN Developer</b> from Peshawar, Pakistan 🇵🇰, with a passion for designing scalable, interactive, and highly responsive web applications. I love bridging the gap between user-centric design and powerful back-end architecture. I work extensively with <b>React, Node.js, Express, and MongoDB</b>, transforming abstract concepts into pixel-perfect, structured realities.</p>
       <br/>
       <h4>🎯 Focus &amp; Principles</h4>
       <ul>
         <li>🚀 <b>Performance:</b> Optimized front-ends &amp; highly scalable REST APIs</li>
         <li>🎨 <b>Sleek UI/UX:</b> Interactive web apps with premium glassmorphic styling</li>
-        <li>⚙️ <b>Clean Architecture:</b> DRY code, modular components, robust folder structures</li>
-        <li>☁️ <b>Deployment:</b> Version control &amp; Cloud ecosystem integrations</li>
+        <li>⚙️ <b>Clean Code:</b> DRY principles, modular components, and robust systems</li>
+        <li>☁️ <b>Deployment:</b> Continuous integration &amp; cloud ecosystems</li>
       </ul>
     </td>
     <td valign="top" width="45%">
@@ -47,6 +55,7 @@
       </ul>
       <br/>
       <div align="center">
+        <!-- Interactive GitHub Statistics Widget -->
         <img src="https://github-readme-stats.vercel.app/api?username=Yasirfaizan&show_icons=true&theme=tokyonight&hide_border=true&title_color=3b82f6&text_color=a1a1aa&icon_color=ec4899" width="100%" alt="Yasir's GitHub Stats" />
       </div>
     </td>
@@ -62,24 +71,24 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" width="25%">
-      <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="70"><br>
+      <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="70"><br><br>
       <b>Responsive Design</b><br>
       <sub style="color: #a1a1aa;">Pixel-perfect, fluid layouts</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="70"><br>
+      <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="70"><br><br>
       <b>React Frontend</b><br>
-      <sub style="color: #a1a1aa;">State management &amp; component architecture</sub>
+      <sub style="color: #a1a1aa;">State management &amp; components</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="70"><br>
+      <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="70"><br><br>
       <b>Backend &amp; APIs</b><br>
       <sub style="color: #a1a1aa;">Secure, high-concurrency endpoints</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="70"><br>
+      <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="70"><br><br>
       <b>MERN Stack</b><br>
-      <sub style="color: #a1a1aa;">Seamless database to client integrations</sub>
+      <sub style="color: #a1a1aa;">Seamless full-stack integrations</sub>
     </td>
   </tr>
 </table>
@@ -127,7 +136,7 @@
 
 <table align="center" width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 15px;">
       <h3>🔗 Chain Forge</h3>
       <p><i>The "Firebase for Web3" helping connect wallets, process transaction details, and generate API keys.</i></p>
       <p>
@@ -135,9 +144,15 @@
         <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
         <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
       </p>
-      <a href="https://github.com/Yasirfaizan/chainforge"><b>💻 Repo</b></a> | <a href="https://chainforge-henna.vercel.app/"><b>🌐 Live Demo</b></a>
+      <br/>
+      <a href="https://github.com/Yasirfaizan/chainforge">
+        <img src="https://img.shields.io/badge/Repository-121212?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <a href="https://chainforge-henna.vercel.app/">
+        <img src="https://img.shields.io/badge/Live_Demo-3b82f6?style=for-the-badge&logo=vercel&logoColor=white" />
+      </a>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 15px;">
       <h3>🏥 Clinic Management System</h3>
       <p><i>A full-featured management tool designed to coordinate patient appointments and prescriptions.</i></p>
       <p>
@@ -146,11 +161,17 @@
         <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
         <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
       </p>
-      <a href="https://github.com/Yasirfaizan/MedFlow"><b>💻 Repo</b></a> | <a href="https://med-flow-two-livid.vercel.app/"><b>🌐 Live Demo</b></a>
+      <br/>
+      <a href="https://github.com/Yasirfaizan/MedFlow">
+        <img src="https://img.shields.io/badge/Repository-121212?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <a href="https://med-flow-two-livid.vercel.app/">
+        <img src="https://img.shields.io/badge/Live_Demo-3b82f6?style=for-the-badge&logo=vercel&logoColor=white" />
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 15px;">
       <h3>🎓 Aziz Jan Trust</h3>
       <p><i>A live, production-grade website for a KPK-based trust institute providing free education.</i></p>
       <p>
@@ -158,9 +179,15 @@
         <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
       </p>
-      <a href="https://github.com/Yasirfaizan/Aziz-Jan-Trust"><b>💻 Repo</b></a> | <a href="https://aziz-jan-trust.vercel.app/"><b>🌐 Live Demo</b></a>
+      <br/>
+      <a href="https://github.com/Yasirfaizan/Aziz-Jan-Trust">
+        <img src="https://img.shields.io/badge/Repository-121212?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <a href="https://aziz-jan-trust.vercel.app/">
+        <img src="https://img.shields.io/badge/Live_Demo-3b82f6?style=for-the-badge&logo=vercel&logoColor=white" />
+      </a>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 15px;">
       <h3>🏫 Peshawar Model School</h3>
       <p><i>An educational and platform landing designed with react frontend routing and modern elements.</i></p>
       <p>
@@ -168,7 +195,13 @@
         <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
       </p>
-      <a href="https://github.com/Yasirfaizan/PMDC-School-React"><b>💻 Repo</b></a> | <a href="https://pmdc-school-react.vercel.app/"><b>🌐 Live Demo</b></a>
+      <br/>
+      <a href="https://github.com/Yasirfaizan/PMDC-School-React">
+        <img src="https://img.shields.io/badge/Repository-121212?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <a href="https://pmdc-school-react.vercel.app/">
+        <img src="https://img.shields.io/badge/Live_Demo-3b82f6?style=for-the-badge&logo=vercel&logoColor=white" />
+      </a>
     </td>
   </tr>
 </table>
