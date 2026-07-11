@@ -3,21 +3,21 @@
   
   <br/><br/>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&amp;weight=600&amp;size=24&amp;duration=4000&amp;pause=1000&amp;color=3b82f6&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Building+Modern+Web+Experiences;MERN+Stack+Developer;Front-End+%2B+Back-End+Architecture;Creating+Seamless+User+Interfaces" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=600&size=24&duration=4000&pause=1000&color=3b82f6&center=true&vCenter=true&width=600&lines=Building+Modern+Web+Experiences;MERN+Stack+Developer;Front-End+%2B+Back-End+Architecture;Creating+Seamless+User+Interfaces" alt="Typing SVG" />
   
   <br/>
   
   <a href="mailto:yasirfaizan680@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=Gmail&amp;logoColor=white&amp;labelColor=0f0f11" />
+    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=0f0f11" />
   </a>
   <a href="https://www.linkedin.com/in/yasir-faizan-shalmani/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=Linkedin&amp;logoColor=white&amp;labelColor=0f0f11" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&labelColor=0f0f11" />
   </a>
   <a href="https://github.com/Yasirfaizan">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&amp;logo=github&amp;logoColor=black&amp;labelColor=0f0f11" />
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=0f0f11" />
   </a>
   <a href="https://www.facebook.com/yasir.faizan.680078/">
-    <img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=Facebook&amp;logoColor=white&amp;labelColor=0f0f11" />
+    <img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white&labelColor=0f0f11" />
   </a>
 </div>
 
@@ -47,7 +47,7 @@
       </ul>
       <br/>
       <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Yasirfaizan&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;title_color=3b82f6&amp;text_color=a1a1aa&amp;icon_color=ec4899" width="100%" alt="Yasir's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Yasirfaizan&show_icons=true&theme=tokyonight&hide_border=true&title_color=3b82f6&text_color=a1a1aa&icon_color=ec4899" width="100%" alt="Yasir's GitHub Stats" />
       </div>
     </td>
   </tr>
@@ -93,7 +93,7 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,tailwind,bootstrap,nodejs,express,mongodb,firebase,npm,git,github,vscode,vite&amp;perline=9&amp;theme=dark" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,tailwind,bootstrap,nodejs,express,mongodb,firebase,npm,git,github,vscode,vite&perline=9&theme=dark" alt="My Skills" />
   </a>
 </div>
 
@@ -131,9 +131,9 @@
       <h3>🔗 Chain Forge</h3>
       <p><i>The "Firebase for Web3" helping connect wallets, process transaction details, and generate API keys.</i></p>
       <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&amp;logo=express&amp;logoColor=white" />
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&amp;logo=mongodb&amp;logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
       </p>
       <a href="https://github.com/Yasirfaizan/chainforge"><b>💻 Repo</b></a> | <a href="https://chainforge-henna.vercel.app/"><b>🌐 Live Demo</b></a>
     </td>
@@ -141,10 +141,10 @@
       <h3>🏥 Clinic Management System</h3>
       <p><i>A full-featured management tool designed to coordinate patient appointments and prescriptions.</i></p>
       <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&amp;logo=express&amp;logoColor=white" />
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&amp;logo=mongodb&amp;logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&amp;logo=tailwind-css&amp;logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
       </p>
       <a href="https://github.com/Yasirfaizan/MedFlow"><b>💻 Repo</b></a> | <a href="https://med-flow-two-livid.vercel.app/"><b>🌐 Live Demo</b></a>
     </td>
@@ -154,9 +154,9 @@
       <h3>🎓 Aziz Jan Trust</h3>
       <p><i>A live, production-grade website for a KPK-based trust institute providing free education.</i></p>
       <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&amp;logo=tailwind-css&amp;logoColor=white" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&amp;logo=vite&amp;logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
       </p>
       <a href="https://github.com/Yasirfaizan/Aziz-Jan-Trust"><b>💻 Repo</b></a> | <a href="https://aziz-jan-trust.vercel.app/"><b>🌐 Live Demo</b></a>
     </td>
@@ -164,9 +164,9 @@
       <h3>🏫 Peshawar Model School</h3>
       <p><i>An educational and platform landing designed with react frontend routing and modern elements.</i></p>
       <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&amp;logo=tailwind-css&amp;logoColor=white" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&amp;logo=vite&amp;logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
       </p>
       <a href="https://github.com/Yasirfaizan/PMDC-School-React"><b>💻 Repo</b></a> | <a href="https://pmdc-school-react.vercel.app/"><b>🌐 Live Demo</b></a>
     </td>
@@ -182,17 +182,17 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Yasirfaizan&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;title_color=3b82f6&amp;text_color=a1a1aa&amp;icon_color=ec4899" width="100%" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=Yasirfaizan&show_icons=true&theme=tokyonight&hide_border=true&title_color=3b82f6&text_color=a1a1aa&icon_color=ec4899" width="100%" alt="GitHub Stats" />
     </td>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasirfaizan&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;title_color=3b82f6&amp;text_color=a1a1aa" width="100%" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasirfaizan&layout=compact&theme=tokyonight&hide_border=true&title_color=3b82f6&text_color=a1a1aa" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
 
 <div align="center">
   <br/>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=YasirFaizan&amp;theme=tokyo-night&amp;hide_border=true&amp;bg_color=0D1117&amp;color=3b82f6&amp;line=3b82f6&amp;point=FFFFFF" alt="Contribution Graph"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=YasirFaizan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3b82f6&line=3b82f6&point=FFFFFF" alt="Contribution Graph"/>
 </div>
 
 ---
@@ -200,7 +200,7 @@
 <div align="center">
   <h2>💭 Dev Wisdom</h2>
   <br>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight&amp;border=true" alt="Random Dev Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Random Dev Quote"/>
 </div>
 
 ---
@@ -210,13 +210,13 @@
   <p><b>I'm always excited to collaborate on interesting projects or discuss web development!</b></p>
   
   <a href="mailto:yasirfaizan680@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=Gmail&amp;logoColor=white&amp;labelColor=0f0f11" />
+    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=0f0f11" />
   </a>
   <a href="https://www.linkedin.com/in/yasir-faizan-shalmani/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=Linkedin&amp;logoColor=white&amp;labelColor=0f0f11" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&labelColor=0f0f11" />
   </a>
   <a href="https://github.com/Yasirfaizan">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&amp;logo=github&amp;logoColor=black&amp;labelColor=0f0f11" />
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=0f0f11" />
   </a>
 
   <br><br>
